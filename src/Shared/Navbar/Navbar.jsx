@@ -6,12 +6,24 @@ import "./Navbar.css";
 import { useState } from "react";
 
 const Navbar = () => {
+  // setting up mobile navigation
   const [click, setClick] = useState(false);
-
   const handleClick = () => setClick(!click);
 
+  // change navbar color when scrolling
+  const [color, setColor] = useState(false);
+  const changeColor = () => {
+    if (window.scrollY >= 90) {
+      setColor(true);
+    } else {
+      setColor(false);
+    }
+  };
+
+  window.addEventListener("scroll", changeColor);
+
   return (
-    <div className="header">
+    <div className={color ? "header header-bg" : "header"}>
       <nav className="navbar">
         <a href="#" className="logo">
           <div className="text-3xl text-[#E4B40D] font-bold shadow-sm">

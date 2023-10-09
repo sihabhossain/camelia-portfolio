@@ -7,7 +7,7 @@ import linkedin from "../../assets/images/linkedin.png";
 
 const About = () => {
   return (
-    <div className="md:max-w-[1100px] md:mx-auto mx-5 my-20">
+    <div className="md:max-w-[1100px] md:mx-auto mx-5 my-20" id="About">
       <div className="md:flex gap-20">
         {/* About me image */}
         <div className="relative">

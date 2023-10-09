@@ -16,3 +16,7 @@
   --secondary-dark: #e3d002;
   --overlay: rgba(19, 8, 90, 0.50);
 }
+
+html{
+  scroll-behavior: smooth;
+}
