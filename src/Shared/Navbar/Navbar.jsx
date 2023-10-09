@@ -23,7 +23,7 @@ const Navbar = () => {
   window.addEventListener("scroll", changeColor);
 
   return (
-    <div className={color ? "header header-bg" : "header"}>
+    <div className={color ? "header shadow-2xl header-bg" : "header"}>
       <nav className="navbar">
         <a href="#" className="logo">
           <div className="text-3xl text-[#E4B40D] font-bold shadow-sm">

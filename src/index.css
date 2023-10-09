@@ -14,7 +14,9 @@
   --primary-dark: #4f9c55;
   --secondary-color: #ffea00;
   --secondary-dark: #e3d002;
-  --overlay: rgba(19, 8, 90, 0.50);
+  --overlayHero: rgba(19, 8, 90, 0.50);
+  --overlayEducation: rgba(10, 5, 46, 0.5);
+  --overlayCourses: rgb(118, 121, 164)
 }
 
 html{
