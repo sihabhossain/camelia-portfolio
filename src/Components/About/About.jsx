@@ -1,14 +1,26 @@
 // IMAGES
 import aboutmeIMG from "../../assets/images/aboutmeIMG.png";
+import faceBook from "../../assets/images/fb.png";
+import insta from "../../assets/images/insta.png";
+import twitter from "../../assets/images/twitter.png";
+import linkedin from "../../assets/images/linkedin.png";
 
 const About = () => {
   return (
     <div className="md:max-w-[1100px] md:mx-auto mx-5 my-20">
       <div className="md:flex gap-20">
         {/* About me image */}
-        <div>
+        <div className="relative">
           <div className="md:w-[400px]">
             <img src={aboutmeIMG} alt="" />
+          </div>
+
+          {/* Social icons */}
+          <div className="flex gap-10 absolute md:top-96 right-14">
+            <img src={faceBook} alt="" />
+            <img src={insta} alt="" />
+            <img src={twitter} alt="" />
+            <img src={linkedin} alt="" />
           </div>
         </div>
         {/* About me description */}
@@ -54,7 +66,7 @@ const About = () => {
             </div>
 
             {/* Age & Address */}
-            <div className="md:flex justify-start md:gap-40 border-b pb-2">
+            <div className="md:flex justify-start md:gap-[165px] border-b pb-2">
               <div>
                 <p>
                   <span className="mr-3 font-semibold">AGE:</span> 35 Years
@@ -69,7 +81,7 @@ const About = () => {
             </div>
 
             {/* Email & Language */}
-            <div className="md:flex justify-start md:gap-9 items-start border-b pb-2">
+            <div className="md:flex justify-start md:gap-[37px] items-start border-b pb-2">
               <div>
                 <p>
                   <span className="mr-3 font-semibold">EMAIL:</span>
@@ -85,7 +97,7 @@ const About = () => {
             </div>
 
             {/* Phone & Freelance */}
-            <div className="md:flex justify-start md:gap-24 pr-5 border-b pb-2">
+            <div className="md:flex justify-start md:gap-[90px] pr-5 border-b pb-2">
               <div>
                 <p>
                   <span className="mr-3 font-semibold">PHONE:</span> 01768-677
