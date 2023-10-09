@@ -34,10 +34,10 @@ const Hero = () => {
 
         {/* BUTTONS */}
         <div className="flex justify-center items-center gap-5 pt-10 font-semibold">
-          <button className="text-white bg-[#E4B40D] px-5 py-3 w-[150px] rounded-full">
+          <button className="text-white bg-[#E4B40D] hover:bg-yellow-400 px-5 py-3 w-[150px] rounded-full">
             contact me
           </button>
-          <button className="text-black bg-white w-[150px] px-5 py-3  rounded-full">
+          <button className="text-black bg-white hover:bg-slate-100 w-[150px] px-5 py-3  rounded-full">
             Portfolio
           </button>
         </div>

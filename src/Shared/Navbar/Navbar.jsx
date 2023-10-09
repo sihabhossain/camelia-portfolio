@@ -46,7 +46,7 @@ const Navbar = () => {
         </ul>
 
         {/* DOWNLOAD CV BUTTON */}
-        <button className="text-white bg-[#E4B40D] px-5 py-3 rounded-full">
+        <button className="text-white bg-[#E4B40D] hover:bg-yellow-400 px-5 py-3 rounded-full">
           DOWNLOAD CV
         </button>
 
