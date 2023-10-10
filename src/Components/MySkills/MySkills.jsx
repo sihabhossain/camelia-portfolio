@@ -8,7 +8,7 @@ import miroImg from "../../assets/images/miro.png";
 
 const MySkills = () => {
   return (
-    <div className="md:max-w-[1100px] md:mx-auto mx-10 mb-10">
+    <div className="md:max-w-[1100px] md:mx-auto mx-10 mb-20">
       <div>
         {/* Heading */}
         <h1 className="text-[#E4B40D] font-semibold text-5xl text-center mb-3">

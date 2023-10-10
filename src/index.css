@@ -16,7 +16,8 @@
   --secondary-dark: #e3d002;
   --overlayHero: rgba(19, 8, 90, 0.50);
   --overlayEducation: rgba(10, 5, 46, 0.5);
-  --overlayCourses: rgb(118, 121, 164)
+  --overlayCourses: rgb(118, 121, 164);
+  --overlayExperience: rgba(42, 37, 93, 0.90);
 }
 
 html{

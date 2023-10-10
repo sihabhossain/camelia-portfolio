@@ -1,0 +1,18 @@
+.experience {
+    background-color: var(--overlayExperience);
+    color: #fff;
+    height: screen;
+    width: 100%;
+    position: relative;
+}
+
+.experience:before {
+    content: '';
+    background: url('../../assets/images/myExperienceBg.png') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
